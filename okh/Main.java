@@ -147,7 +147,7 @@ public class Main {
 				Optimizer.hillClimbing(dir_stu, dir_crs, 100, 1000000);
 			long endTime   = System.nanoTime();
 			long totalTime = endTime - startTime;
-			System.out.println((double)totalTime/1000000000 + " detik");
+			System.out.println((double)totalTime/1000000000 + " second");
 			
 			break;
 		
